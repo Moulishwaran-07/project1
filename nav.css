@@ -1,0 +1,96 @@
+@font-face {
+    font-family: PermanentMarkerRegular;
+    src: url(font/PermanentMarkerRegular.ttf);
+}
+
+@font-face {
+    font-family: WonderbarDemo;
+    src: url(font/WonderbarDemo.otf);
+}
+
+@font-face {
+    font-family: AARDV;
+    src: url(font/AARDV.TTFs);
+}
+@font-face {
+    font-family: FatTats;
+    src: url(font/FatTats.ttf);
+}
+@font-face {
+    font-family: SantaBackground;
+    src: url(font/SantaBackground.otf);
+}
+
+@font-face {
+    font-family: Ravenscroft;
+    src: url(font/Ravenscroft.ttf);
+}
+
+@font-face {
+    font-family: GistLight;
+    src: url(font/GistLight.otf);
+}
+@font-face {
+    font-family: Montague;
+    src: url(font/Montague.ttf);
+}
+@font-face {
+    font-family: BungeeInlineRegular;
+    src: url(font/BungeeInlineRegular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 2.4rem;
+    /* font-family: BungeeInlineRegular; */
+    font-family: FatTats;
+    margin-top: 10px;
+    color: rgb(125, 83, 83);
+    
+}
+
+nav {
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 1.2rem;
+    color: rgb(194, 91, 91);
+    /* font-family: WonderbarDemo; */
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+
+}
+
+@media all and (max-width:500px) {
+  header
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+ 
+ 
+}
