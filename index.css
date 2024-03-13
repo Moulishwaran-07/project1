@@ -538,7 +538,7 @@ select[name="list"]
    font-size: 1rem;
    text-align: justify;
    margin-top: 10px;
-   text-indent: 20px;
+   text-indent: 30px;
 }
 .page2>img
 {
@@ -641,7 +641,6 @@ select[name="list"]
     .card_head {
         display: grid;
         grid-template-columns: auto;
-
         display: inline block; 
 
      } 
@@ -660,10 +659,12 @@ select[name="list"]
         grid-template-columns: 1fr;
         margin-top: 170px;
         padding: 5px;
+      
     }
 
     .para3 {
         padding: 5px;
+      
     }
 
     .icon_set {
@@ -672,16 +673,17 @@ select[name="list"]
         justify-content: center;
         align-items: center;
         margin: auto;
-        margin-left: 240px;
+        margin-left: 190px;
 
     }
 
     .icon3 {
         margin-left: 40px;
+        
 
     } 
 
-     .card_img,
+    .card_img,
     .card_img2,
     .card_img3 {
         padding: 5px;
@@ -689,11 +691,13 @@ select[name="list"]
          overflow: hidden; 
          width: 100%;
          margin: auto;
+      
        
      } 
      .card_img>img ,.card_img2>img ,.card_img3>img 
     {
         width: 100%;
+        
     }
 
     .mainframe {
@@ -703,6 +707,7 @@ select[name="list"]
 .over_view img
 {
     width: 98%;
+   
 }
 .book
 {
@@ -715,8 +720,7 @@ select[name="list"]
 }
 .section_2
 {
-    width: 60%;
-   
+    width: 60%; 
    margin-left: 100px;
 }
 .review_page
@@ -728,10 +732,12 @@ select[name="list"]
 .review_page .page2
 {
     margin-top: 20px;
+  
 }
 .review_page .page3
 {
     margin-top: 20px;
+   
 }
  }  
 
