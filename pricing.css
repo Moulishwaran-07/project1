@@ -1,0 +1,67 @@
+@font-face {
+    font-family: KanitBold;
+    src: url(font/KanitBold.ttf);
+}
+.pricing_banner
+{
+    height: 100%;
+    width: 100%;
+}
+.pricing_banner img
+{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    border: 3px solid brown;
+}
+.picture1
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+.picture1 img
+{
+    height: 500px;
+    width: 100%;
+}
+h4
+{
+    font-size: 3rem;
+    text-align: center;
+    font-family: KanitBold;
+    color: chocolate;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 60px;
+}
+.price_table1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 70%;
+    height: 600px;
+    margin-top: 50px;
+    border: 3px solid brown;
+    background-color: aliceblue;
+}
+.hair_name1
+{
+    margin-left: 250px;
+}
+.price1
+{
+    margin-left: 150px;
+}
+.price_table1 h5
+{
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.price_table1 h3
+{
+    margin-top: 50px;
+    margin-left: 30px;
+}

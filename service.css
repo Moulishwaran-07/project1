@@ -1,0 +1,176 @@
+@font-face {
+    font-family: airstrike;
+    src: url(font/airstrike.ttf);
+}
+@font-face {
+    font-family: FatTats;
+    src: url(font/FatTats.ttf);
+}
+body {
+    background-color:white;
+}
+
+.service_banner
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.service_banner img
+{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid brown;
+}
+.service_banner h2
+{
+
+position: absolute;
+margin-top: -20%;
+margin-left: 65%;
+font-size: 3.5rem;
+color:#f8f9fb;
+font-family: airstrike;
+letter-spacing: 5px;
+text-shadow: 3px 3px 3px black;
+}
+.service_page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   margin-top: 150px;
+  column-gap: 15%;
+}
+.pho1 img
+{
+    height: 350px;
+    width: 550px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.pho2 img
+{
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+}
+.trim_page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    column-gap: 15%;
+}
+.pho3 img
+{
+    height: 350px;
+    width: 550px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.pho4 img
+{
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+}
+.wash_page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    column-gap: 15%;
+}
+.pho5 img
+{
+    height: 350px;
+    width: 550px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.pho6 img
+{
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+}
+.styling_page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    column-gap: 15%;
+}
+.pho7 img
+{
+    height: 350px;
+    width: 550px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.pho8 img
+{
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+    
+}
+.head_1
+{
+    text-align: center;
+    font-size: 2.5rem;
+margin-top: 70px;
+font-family: FatTats;
+color: #370617;
+}
+.head_2
+{
+    text-align: center;
+    font-size: 2rem;
+margin-top: 150px;  
+font-family: FatTats;
+color: #370617; 
+}
+.head_3
+{
+    text-align: center;
+    font-size: 2rem;
+margin-top: 150px;  
+font-family: FatTats;
+color: #370617; 
+}
+.head_4
+{
+    text-align: center;
+    font-size: 2rem;
+margin-top: 150px;   
+font-family: FatTats;
+color: #370617;
+}
+.price_button
+{
+    height: 50px;
+    width: 140px;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.price_button2
+{
+    height: 50px;
+    width: 140px;
+    font-size: 1.3rem;
+   margin-left: 63%;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+    cursor: pointer; 
+}

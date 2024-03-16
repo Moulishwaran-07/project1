@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: airstrike;
+    src: url(font/airstrike.ttf);
+}
+@font-face {
+    font-family: BacasimeAntiqueRegular;
+    src: url(font/BacasimeAntiqueRegular.ttf);
+}
+.about_banner
+{
+    height: 100%;
+    width: 100%;
+}
+.about_banner img
+{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    border: 3px solid brown;
+}
+.about_banner h2
+{
+    
+position: absolute;
+margin-top: -20%;
+margin-left:40%;
+font-size: 3.5rem;
+color:black;
+font-family: airstrike;
+letter-spacing: 5px;
+text-shadow: 2px 2px 2px gray;
+}
+.master
+{
+    height: 100%;
+    width: 100%;
+margin-top: 60px;
+}
+.master img
+{
+    height: 350px;
+    width: 550px;
+   margin-left: 33%;
+   border: 3px solid lightcoral;
+   border-radius: 10px;
+}
+article
+{
+    background-color: rgb(253, 248, 242);
+}
+.about_title1
+{
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    margin-top: 90px;
+}
+.about1 .about_para1
+{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    font-family: BacasimeAntiqueRegular;
+    font-weight: 600;
+}
+.about_title2
+{
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    margin-top: 50px;
+}
+.about2 .about_para2
+{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    font-family: BacasimeAntiqueRegular;
+    font-weight: 600;
+}
+.about_title3
+{
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    margin-top: 50px;
+}
+.about3 .about_para3
+{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    font-family: BacasimeAntiqueRegular;
+    font-weight: 600;
+}
+.brands
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+width: 70%; 
+    margin: auto;
+   margin-top: 70px;
+  
+}
+.brand_1
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 100px;
+  
+}
+.brand_1 img
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+}
+.brand_2
+{
+    height: 100%;
+    width: 100%;
+  
+}
+.brand_2 img
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+}
+.brand_3
+{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.brand_3 img
+{
+    height: 150px;
+    width: 150px;
+   
+}
+h3
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 80px;
+    color: brown;
+}
+

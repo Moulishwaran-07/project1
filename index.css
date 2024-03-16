@@ -74,15 +74,15 @@
 }
 
 body {
-    background-color: #f5f3f4;
+    background-color: white;
 }
 
 .ban_img {
 
     height: 100vh;
     width: 90vw;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin: auto;
 }
 
@@ -90,6 +90,7 @@ body {
 
     height: 80%;
     width: 100%;
+    border: 3px solid brown;
 }
 
 .home_ser {
@@ -243,7 +244,7 @@ text-shadow: 1px 1px 1px black;
 .icon_set {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #f5f3f4;
+    background-color: white;
     margin: auto;
     column-gap: 40px;
     width: 60%;
@@ -254,6 +255,7 @@ text-shadow: 1px 1px 1px black;
 .icon1 {
     height: 100%;
     width: 100%;
+   
 }
 
 
@@ -267,6 +269,7 @@ text-shadow: 1px 1px 1px black;
 .icon2 {
     height: 100%;
     width: 100%;
+   
 }
 
 .icon2 img {
@@ -279,6 +282,7 @@ text-shadow: 1px 1px 1px black;
 .icon3 {
     height: 100%;
     width: 100%;
+    
 }
 
 .icon3 img {
