@@ -55,16 +55,21 @@ header {
     position: relative;
 
 }
-
-h1 {
+/* 
+ h1 {
     font-size: 2.4rem;
-    /* font-family: BungeeInlineRegular; */
+   
     font-family: FatTats;
     margin-top: 10px;
     color: rgb(125, 83, 83);
     text-shadow: 2px 2px 3px black, 2px 2px 4px goldenrod;
     word-spacing: 10px;
 
+}  */
+.shop_title img
+{
+height: 150px;
+width: 350px;
 }
 
 nav {
@@ -78,23 +83,26 @@ nav ul {
     /* padding-left: 5px;
     padding-right: 5px; */
     overflow: hidden;
+   
 }
 
 nav ul li a {
     text-decoration: none;
     padding: 30px;
-    font-size: 1.3rem;
-    color: goldenrod;
-    text-shadow: 1px 2px 1px black;
-    /* font-family: WonderbarDemo; */
+    font-size: 1.4rem;
+    color: rgb(78, 78, 78);
     position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: KanitBold;
     font-weight: 900;
-    display: block;
-    position: relative;
+    /* display: block; */
+    font-style: italic;
+    
 }
-
-a::after {
+a:hover
+{
+    color: rgb(30, 198, 210);
+}
+/* a::after {
     content: "";
     height: 2px;
     width: 70%;
@@ -108,7 +116,7 @@ a::after {
 
 a:hover::after {
     transform: scale(1);
-}
+} */
 
 
 

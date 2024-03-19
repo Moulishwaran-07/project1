@@ -15,6 +15,7 @@
     font-family:GraduateRegular ;
     src: url(font/GraduateRegular.ttf);
 }
+
 @font-face {
     font-family: WonderbarDemo;
     src: url(font/WonderbarDemo.otf);
@@ -84,6 +85,7 @@ body {
     /* display: flex;
     justify-content: center; */
     margin: auto;
+    
 }
 
 .ban_img img {
@@ -136,7 +138,7 @@ body {
 }
 
 .para1 {
-    height: 35px;
+    height: 350px;
     width: 550px;
 }
 
@@ -155,7 +157,21 @@ text-shadow: 1px 1px 1px black;
     text-align: justify;
     color: #2d6a4f;
 }
-
+.para1 a
+{
+text-decoration: none;
+color: white;
+}
+.para2 a
+{
+    text-decoration: none;
+    color: white;
+}
+.para3 a
+{
+    text-decoration: none;
+    color: white;
+}
 .card_img2 {
     height: 100%;
     width: 100%;

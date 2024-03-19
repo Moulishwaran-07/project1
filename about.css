@@ -10,7 +10,8 @@
 .about_banner
 {
     height: 100%;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 .about_banner img
 {
