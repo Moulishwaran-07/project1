@@ -124,5 +124,17 @@ input[type="letter"] {
     color: red;
 }
 
-
+@media all and (max-width:500px) 
+{
+    .contact_page
+    {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .site2
+    {
+        margin-top: 60px;
+        margin-left: -10px;
+    }
+}
 

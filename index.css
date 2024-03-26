@@ -2,6 +2,7 @@
     font-family: PermanentMarkerRegular;
     src: url(font/PermanentMarkerRegular.ttf);
 }
+
 @font-face {
     font-family: BacasimeAntiqueRegular;
     src: url(font/BacasimeAntiqueRegular.ttf);
@@ -11,8 +12,9 @@
     font-family: ThyssenJItalic;
     src: url(font/ThyssenJItalic.TTF);
 }
+
 @font-face {
-    font-family:GraduateRegular ;
+    font-family: GraduateRegular;
     src: url(font/GraduateRegular.ttf);
 }
 
@@ -25,10 +27,12 @@
     font-family: Sketch;
     src: url(font/Sketch.ttf);
 }
+
 @font-face {
     font-family: TradeWindsRegular;
     src: url(font/TradeWindsRegular.ttf);
 }
+
 @font-face {
     font-family: FrederickatheGreatRegular;
     src: url(font/FrederickatheGreatRegular.ttf);
@@ -85,7 +89,7 @@ body {
     /* display: flex;
     justify-content: center; */
     margin: auto;
-    
+
 }
 
 .ban_img img {
@@ -102,7 +106,7 @@ body {
     color: rgb(134, 106, 56);
     /* text-shadow: 1px 1px 1px black; */
     text-align: center;
-     font-family: TheyPerished; 
+    font-family: TheyPerished;
     word-spacing: 8px;
     /* font-family: BungeeInlineRegular; */
 }
@@ -128,8 +132,8 @@ body {
 }
 
 .card_img {
-     height: 100%;
-    width: 100%; 
+    height: 100%;
+    width: 100%;
 }
 
 .card_img>img {
@@ -148,7 +152,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
     color: #1b4332;
-text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .para1 p {
@@ -157,21 +161,22 @@ text-shadow: 1px 1px 1px black;
     text-align: justify;
     color: #2d6a4f;
 }
-.para1 a
-{
-text-decoration: none;
-color: white;
-}
-.para2 a
-{
+
+.para1 a {
     text-decoration: none;
     color: white;
 }
-.para3 a
-{
+
+.para2 a {
     text-decoration: none;
     color: white;
 }
+
+.para3 a {
+    text-decoration: none;
+    color: white;
+}
+
 .card_img2 {
     height: 100%;
     width: 100%;
@@ -271,7 +276,7 @@ color: white;
 .icon1 {
     height: 100%;
     width: 100%;
-   
+
 }
 
 
@@ -285,7 +290,7 @@ color: white;
 .icon2 {
     height: 100%;
     width: 100%;
-   
+
 }
 
 .icon2 img {
@@ -298,7 +303,7 @@ color: white;
 .icon3 {
     height: 100%;
     width: 100%;
-    
+
 }
 
 .icon3 img {
@@ -353,7 +358,7 @@ color: white;
 
 .part2 {
     background-color: rgb(89, 89, 89);
-    height:600px ;
+    height: 600px;
 
 }
 
@@ -367,10 +372,10 @@ color: white;
 
 .part2 h2 {
     color: yellow;
-    text-shadow: 2px 3px 3px black,2px 2px 4px wheat;
+    text-shadow: 2px 3px 3px black, 2px 2px 4px wheat;
     text-align: center;
     margin-top: 30px;
-    font-size: 1,7rem;
+    font-size: 1, 7rem;
     font-family: TradeWindsRegular;
 }
 
@@ -395,11 +400,11 @@ select[name="area"] {
     background-color: rgb(89, 89, 89);
     border-bottom: 3px solid white;
     color: white;
-    font-family:GraduateRegular ;
+    font-family: GraduateRegular;
     font-size: 1.2rem;
 }
-.section_2
-{
+
+.section_2 {
     margin-top: 50px;
     margin-left: 30px;
 }
@@ -418,7 +423,7 @@ select[name="list"] {
     border-bottom: 3px solid white;
     color: white;
     margin-left: 40px;
-    font-family:GraduateRegular ;
+    font-family: GraduateRegular;
     font-size: 1.2rem;
 }
 
@@ -447,29 +452,28 @@ input[type="email"] {
     padding: 5px 5px 5px 30px;
 }
 
-select[name="area"] 
-{
+select[name="area"] {
     background-image: url(./icons/map3.png);
     background-repeat: no-repeat;
     background-size: 20px;
-    background-position: 0px;   
+    background-position: 0px;
     padding: 5px 5px 5px 30px;
-    width:92% ;
+    width: 92%;
 }
-select[name="list"]
-{
+
+select[name="list"] {
     background-image: url(./icons/scissors2.png);
     background-repeat: no-repeat;
     background-size: 27px;
-    background-position: 0px; 
-    padding: 5px 5px 5px 30px;   
+    background-position: 0px;
+    padding: 5px 5px 5px 30px;
 }
-.book_button
-{
-   position: relative;
+
+.book_button {
+    position: relative;
 }
-.book_button .book_appointment
-{
+
+.book_button .book_appointment {
     position: absolute;
     margin-left: 180px;
     margin-top: 20px;
@@ -483,123 +487,120 @@ select[name="list"]
     background-color: black;
     color: antiquewhite;
 }
-.contact_site
-{
+
+.contact_site {
     position: relative;
 }
 
-.contact_site p
-{
+.contact_site p {
     position: absolute;
-   margin-top:80px ;  
-   font-size: 1.3rem;
-   color:bisque;
-   cursor: pointer;
+    margin-top: 80px;
+    font-size: 1.3rem;
+    color: bisque;
+    cursor: pointer;
 }
-.review_title
-{
-   text-align: center;
+
+.review_title {
+    text-align: center;
     font-size: 2.5rem;
-    margin-top:50px ;
+    margin-top: 50px;
     font-family: BacasimeAntiqueRegular;
     color: chocolate;
     text-shadow: 2px 1px 1px black;
 }
 
-.review_page
-{
+.review_page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-    
+
+
     width: 90%;
     margin: auto;
     margin-top: 100px;
     column-gap: 80px;
 }
-.page1
-{
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    height: 300px;
-    background-color: rgb(139, 255, 238);
-   border-radius: 20px;
-}
-.page1 h5
-{
-   font-size: 1rem;
-   text-align: justify;
-   margin-top: 10px;
-   text-indent: 20px;
-}
-.page1>img
-{
-    height: 150px;
-    width: 150px;
-    margin-top: 40px;
-    margin-left: 120px;
-    border-radius: 55%;  
-}
-.page1>.star1>img
-{
-    height: 40px;
-    width: 150px;
-    margin-left: 120px;
-    margin-top: 15px;
-}
-.page2
-{
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    height: 300px;
-    background-color: rgb(139, 255, 238);
-   border-radius: 20px;
-}
-.page2 h5
-{
-   font-size: 1rem;
-   text-align: justify;
-   margin-top: 10px;
-   text-indent: 30px;
-}
-.page2>img
-{
-    height: 150px;
-    width: 150px;
-    margin-top: 40px;
-    margin-left: 120px;
-    border-radius: 55%;  
-}
-.page2>.star2>img
-{
-    height: 40px;
-    width: 150px;
-    margin-left: 120px;
-    margin-top: 15px;
-}
 
-.page3
-{
+.page1 {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     height: 300px;
     background-color: rgb(139, 255, 238);
     border-radius: 20px;
 }
-.page3 h5
-{
-   font-size: 1rem;
-   margin-top: 10px;
-   text-indent: 20px;
-   text-align: justify;
+
+.page1 h5 {
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 10px;
+    text-indent: 20px;
 }
-.page3>img
-{
+
+.page1>img {
     height: 150px;
     width: 150px;
     margin-top: 40px;
     margin-left: 120px;
-    border-radius: 55%;  
+    border-radius: 55%;
 }
-.page3>.star3>img
-{
+
+.page1>.star1>img {
+    height: 40px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.page2 {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 300px;
+    background-color: rgb(139, 255, 238);
+    border-radius: 20px;
+}
+
+.page2 h5 {
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 10px;
+    text-indent: 30px;
+}
+
+.page2>img {
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 55%;
+}
+
+.page2>.star2>img {
+    height: 40px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.page3 {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 300px;
+    background-color: rgb(139, 255, 238);
+    border-radius: 20px;
+}
+
+.page3 h5 {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.page3>img {
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 55%;
+}
+
+.page3>.star3>img {
     height: 40px;
     width: 150px;
     margin-left: 120px;
@@ -647,7 +648,7 @@ select[name="list"]
 
 
 
- @media all and (max-width:500px) {
+@media all and (max-width:500px) {
     .ban_img {
         width: 90%;
 
@@ -661,11 +662,11 @@ select[name="list"]
     .card_head {
         display: grid;
         grid-template-columns: auto;
-        display: inline block; 
+        display: inline block;
 
-     } 
+    }
 
-     .para1 {
+    .para1 {
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
@@ -679,12 +680,12 @@ select[name="list"]
         grid-template-columns: 1fr;
         margin-top: 170px;
         padding: 5px;
-      
+
     }
 
     .para3 {
         padding: 5px;
-      
+
     }
 
     .icon_set {
@@ -699,69 +700,87 @@ select[name="list"]
 
     .icon3 {
         margin-left: 40px;
-        
 
-    } 
+
+    }
 
     .card_img,
     .card_img2,
     .card_img3 {
         padding: 5px;
-         display: inline block; 
-         overflow: hidden; 
-         width: 100%;
-         margin: auto;
-      
-       
-     } 
-     .card_img>img ,.card_img2>img ,.card_img3>img 
-    {
+        display: inline block;
+        overflow: hidden;
         width: 100%;
-        
+        margin: auto;
+
+
+    }
+
+    .card_img>img,
+    .card_img2>img,
+    .card_img3>img {
+        width: 100%;
+
     }
 
     .mainframe {
         display: grid;
         grid-template-columns: 1fr;
-    } 
-.over_view img
-{
-    width: 98%;
-   
-}
-.book
-{
-    width: 90%;
-}
-.section_1 
-{
-  margin-left: -25px;
-    width: 240%;
-}
-.section_2
-{
-    width: 60%; 
-   margin-left: 100px;
-}
-.review_page
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 80%;
-}
-.review_page .page2
-{
-    margin-top: 20px;
-  
-}
-.review_page .page3
-{
-    margin-top: 20px;
-   
-}
- }  
+    }
 
+    .over_view img {
+        width: 98%;
 
+    }
+
+    .book {
+        width: 90%;
+    }
+
+    .section_1 {
+        margin-left: -25px;
+        width: 240%;
+    }
+
+    .section_2 {
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .review_page {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+
+    .review_page .page2 {
+        margin-top: 20px;
+
+    }
+
+    .review_page .page3 {
+        margin-top: 20px;
+
+    }
+}
+@media all and (min-width:750px) and (max-width:1000px){
 
     
+    .card_head {
+        display: grid;
+        grid-template-columns: auto;
+        display: inline block;
 
+    }
+    .mainframe {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .review_page {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+        margin-top: 20px;
+    }
+}

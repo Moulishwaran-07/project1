@@ -77,5 +77,37 @@ h1
     margin-left: 30px;
     font-family: AkayaTelivigalaRegular;
 }
+@media all and (max-width:500px) 
+{
+    .picture1 img
+    {
+        margin-left: -80px;
+    }
+    .price_table1
+    {
+        display: grid;
+        width: 90%;
+    }
+    .hair_name1
+    {
+        margin-left: -10px;
+    }
+}
+@media all and (min-width:750px) and (max-width:1000px)
+{
+    .picture1 img
+    {
+        margin-left: -80px;
+    }
+    .price_table1
+    {
+        display: grid;
+        width: 90%;
+    }
+    .hair_name1
+    {
+        margin-left: -10px;
+    }
+}
 
 

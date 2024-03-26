@@ -209,3 +209,28 @@
         margin-top: -40px;
     }
 }
+@media all and (min-width:750px) and (max-width:1000px)
+{
+    .footer_page
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        width: 100%;
+        background-color: wheat;
+    }
+    .foot_2
+    {
+        margin-top: 170px;
+        position: absolute;
+        
+    }
+    .foot_3
+    {
+        margin-top: 110px;
+    }
+    .foot_4
+    {
+        margin-top: -40px;
+    }
+}
